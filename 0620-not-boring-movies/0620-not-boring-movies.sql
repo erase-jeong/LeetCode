@@ -1,11 +1,5 @@
-SELECT * 
-FROM Cinema
-WHERE (id) IN
-    (SELECT  
-        case 
-            when id%2=1 then id
-            else null
-            end as ID
-    FROM Cinema) and description !='boring'
-ORDER BY rating DESC;
+SELECT *
+FROM cinema c
+WHERE c.id%2=1 AND c.description!='boring'
+ORDER BY c.rating DESC;
 
