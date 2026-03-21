@@ -17,4 +17,5 @@
 | [1148-article-views-i](https://github.com/erase-jeong/LeetCode/tree/master/1148-article-views-i) |
 | [1193-monthly-transactions-i](https://github.com/erase-jeong/LeetCode/tree/master/1193-monthly-transactions-i) |
 | [1341-movie-rating](https://github.com/erase-jeong/LeetCode/tree/master/1341-movie-rating) |
+| [1407-top-travellers](https://github.com/erase-jeong/LeetCode/tree/master/1407-top-travellers) |
 <!---LeetCode Topics End-->
