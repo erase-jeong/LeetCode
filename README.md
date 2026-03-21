@@ -14,6 +14,7 @@
 | [0620-not-boring-movies](https://github.com/erase-jeong/LeetCode/tree/master/0620-not-boring-movies) |
 | [0626-exchange-seats](https://github.com/erase-jeong/LeetCode/tree/master/0626-exchange-seats) |
 | [0627-swap-sex-of-employees](https://github.com/erase-jeong/LeetCode/tree/master/0627-swap-sex-of-employees) |
+| [1148-article-views-i](https://github.com/erase-jeong/LeetCode/tree/master/1148-article-views-i) |
 | [1193-monthly-transactions-i](https://github.com/erase-jeong/LeetCode/tree/master/1193-monthly-transactions-i) |
 | [1341-movie-rating](https://github.com/erase-jeong/LeetCode/tree/master/1341-movie-rating) |
 <!---LeetCode Topics End-->
