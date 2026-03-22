@@ -1,7 +1,8 @@
-SELECT MAX(num) AS num
-FROM (
+SELECT (
     SELECT num
     FROM MyNumbers
     GROUP BY num
     HAVING COUNT(num)=1
-) AS subQuery
+    ORDER BY num DESC
+    LIMIT 1
+) AS num
