@@ -5,6 +5,7 @@
 ## Database
 |  |
 | ------- |
+| [0175-combine-two-tables](https://github.com/erase-jeong/LeetCode/tree/master/0175-combine-two-tables) |
 | [0180-consecutive-numbers](https://github.com/erase-jeong/LeetCode/tree/master/0180-consecutive-numbers) |
 | [0182-duplicate-emails](https://github.com/erase-jeong/LeetCode/tree/master/0182-duplicate-emails) |
 | [0184-department-highest-salary](https://github.com/erase-jeong/LeetCode/tree/master/0184-department-highest-salary) |
