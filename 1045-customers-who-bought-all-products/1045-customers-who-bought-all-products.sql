@@ -1,3 +1,8 @@
+SELECT customer_id
+FROM Customer
+GROUP BY customer_id
+HAVING COUNT(DISTINCT product_key)=(SELECT COUNT(product_key) FROM Product);
+
 
 /*
 모든 제품을 산 사람을 찾기!!!
@@ -9,11 +14,8 @@
 3. 고객이 구매한 제품 종류의 수가 전체 제품 종류의 수와 일치하는 사람만 골라내기
 */
 
-/*
-SELECT count(product_key) as p_cnt
-FROM Product
-*/
 
+/*
 SELECT customer_id
 FROM 
     (SELECT customer_id,COUNT(DISTINCT product_key) as c_cnt
@@ -24,6 +26,7 @@ FROM
         FROM Product
         )
     )  as sub  
+*/
 
 -- WHERE
 -- 개수로만 확인하면  되는건가?? Customer에 없는게 막 있을 수도 있고 그런거 아니야????
