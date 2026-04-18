@@ -9,6 +9,7 @@
 | [0180-consecutive-numbers](https://github.com/erase-jeong/LeetCode/tree/master/0180-consecutive-numbers) |
 | [0182-duplicate-emails](https://github.com/erase-jeong/LeetCode/tree/master/0182-duplicate-emails) |
 | [0184-department-highest-salary](https://github.com/erase-jeong/LeetCode/tree/master/0184-department-highest-salary) |
+| [0196-delete-duplicate-emails](https://github.com/erase-jeong/LeetCode/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/erase-jeong/LeetCode/tree/master/0197-rising-temperature) |
 | [0595-big-countries](https://github.com/erase-jeong/LeetCode/tree/master/0595-big-countries) |
 | [0596-classes-with-at-least-5-students](https://github.com/erase-jeong/LeetCode/tree/master/0596-classes-with-at-least-5-students) |
