@@ -11,6 +11,7 @@
 | [0184-department-highest-salary](https://github.com/erase-jeong/LeetCode/tree/master/0184-department-highest-salary) |
 | [0196-delete-duplicate-emails](https://github.com/erase-jeong/LeetCode/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/erase-jeong/LeetCode/tree/master/0197-rising-temperature) |
+| [0584-find-customer-referee](https://github.com/erase-jeong/LeetCode/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/erase-jeong/LeetCode/tree/master/0595-big-countries) |
 | [0596-classes-with-at-least-5-students](https://github.com/erase-jeong/LeetCode/tree/master/0596-classes-with-at-least-5-students) |
 | [0607-sales-person](https://github.com/erase-jeong/LeetCode/tree/master/0607-sales-person) |
