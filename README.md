@@ -24,6 +24,7 @@
 | [1148-article-views-i](https://github.com/erase-jeong/LeetCode/tree/master/1148-article-views-i) |
 | [1179-reformat-department-table](https://github.com/erase-jeong/LeetCode/tree/master/1179-reformat-department-table) |
 | [1193-monthly-transactions-i](https://github.com/erase-jeong/LeetCode/tree/master/1193-monthly-transactions-i) |
+| [1251-average-selling-price](https://github.com/erase-jeong/LeetCode/tree/master/1251-average-selling-price) |
 | [1341-movie-rating](https://github.com/erase-jeong/LeetCode/tree/master/1341-movie-rating) |
 | [1407-top-travellers](https://github.com/erase-jeong/LeetCode/tree/master/1407-top-travellers) |
 <!---LeetCode Topics End-->
