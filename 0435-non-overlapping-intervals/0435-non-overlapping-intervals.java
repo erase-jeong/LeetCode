@@ -5,7 +5,7 @@ class Solution {
         
         //정렬하기 -> 끝나는거 기준으로
         Arrays.sort(intervals,(a,b)->{
-            if(a[1]==b[1]) return b[0]-a[0];
+            if(a[1]==b[1]) return a[0]-b[0];
             return a[1]-b[1];
         });
         
