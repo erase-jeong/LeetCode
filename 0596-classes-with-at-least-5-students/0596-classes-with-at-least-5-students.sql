@@ -1,4 +1,7 @@
 SELECT class
-FROM Courses
-GROUP BY class
-HAVING COUNT(class)>=5
+FROM (
+    SELECT class, COUNT(class) AS cnt
+    FROM Courses
+    GROUP BY class
+) sub
+WHERE cnt >= 5
