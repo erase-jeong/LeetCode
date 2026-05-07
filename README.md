@@ -41,6 +41,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/erase-jeong/LeetCode/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 ## Greedy
@@ -74,6 +75,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/erase-jeong/LeetCode/tree/master/0070-climbing-stairs) |
 ## Tree
 |  |
 | ------- |
@@ -90,4 +92,8 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/erase-jeong/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
