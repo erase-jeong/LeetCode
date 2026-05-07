@@ -32,6 +32,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -82,4 +83,8 @@
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/erase-jeong/LeetCode/tree/master/0112-path-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
