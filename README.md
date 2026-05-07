@@ -32,6 +32,7 @@
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
@@ -54,6 +55,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Backtracking
 |  |
@@ -63,4 +65,8 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
