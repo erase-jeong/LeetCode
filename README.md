@@ -33,6 +33,7 @@
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -45,4 +46,12 @@
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
+## Matrix
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
