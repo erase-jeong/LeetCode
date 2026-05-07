@@ -8,8 +8,9 @@ class Solution {
                 }
             }
         }
+        throw new IllegalArgumentException("No two sum solution");
 
-        return new int[]{-1};
+        //return new int[]{-1};
         
     }
 }
