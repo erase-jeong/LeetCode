@@ -1,6 +1,13 @@
-SELECT u.name, IFNULL(sum(distance),0) AS travelled_distance
-FROM Users u
-    LEFT JOIN Rides r
-ON u.id=r.user_id
-GROUP BY u.id
-ORDER BY 2 DESC, 1 ASC
+/*
+1. Rides group by
+2. 1이랑 Users JOIN
+3. 결과 출력
+*/
+
+SELECT name,IFNULL(sumD,0) as travelled_distance
+FROM Users LEFT JOIN 
+    (SELECT user_id, SUM(distance) as sumD
+    FROM Rides
+    GROUP BY user_id) as tmp
+    ON Users.id=tmp.user_id
+ORDER BY travelled_distance DESC, name ASC
