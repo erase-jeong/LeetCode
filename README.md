@@ -33,6 +33,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
@@ -109,6 +110,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/erase-jeong/LeetCode/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/erase-jeong/LeetCode/tree/master/0125-valid-palindrome) |
 ## Simulation
@@ -116,4 +118,8 @@
 | ------- |
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/erase-jeong/LeetCode/tree/master/0289-game-of-life) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
