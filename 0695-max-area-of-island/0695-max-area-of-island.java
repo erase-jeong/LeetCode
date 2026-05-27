@@ -11,27 +11,37 @@ class Solution {
             for(int c=0;c<cols;c++){
                 if(grid[r][c]==1){
                     //섬 발견 -> DFS로 넓이 계산
-                    int area=dfs(r,c,grid);
-                    maxArea=Math.max(maxArea, area);
+                    int area=bfs(r,c,grid);
+                    maxArea=Math.max(maxArea,area);
                 }
             }
         }
         return maxArea;
     }
 
-    public int dfs(int r, int c,int[][] grid){
-        //범위 벗어나거나 바다면 0반환
-        if(r<0 || r>=rows || c<0 || c>=cols || grid[r][c]==0) return 0;
+    public int bfs(int r, int c, int[][] grid){
+        Queue<int[]> queue=new LinkedList<>();
+        queue.add(new int[]{r,c});
+        grid[r][c]=0;
+        int area=0;
 
-        grid[r][c]=0; //방문 표시 (재방문 방지)
+        int[][] dirs={{1,0},{-1,0},{0,1},{0,-1}};
 
-        //현재 칸(1) + 상하좌우 넓이 합산
-        return 1+dfs(r+1,c,grid)+dfs(r-1,c,grid)+dfs(r,c+1,grid)+dfs(r,c-1,grid);
+        while(!queue.isEmpty()){
+            int[] cur=queue.poll();
+            area++;
+
+            for(int[] d:dirs){
+                int nr=cur[0]+d[0];
+                int nc=cur[1]+d[1];
+                if(nr>=0 && nr<rows && nc>=0 && nc<cols && grid[nr][nc]==1){
+                    grid[nr][nc]=0;
+                    queue.add(new int[]{nr,nc});;
+                }
+            }
+        }
+        return area;
     }
 
 
 }
-
-/*
-4방향으로 왔다갔다
-*/
