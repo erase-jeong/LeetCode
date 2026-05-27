@@ -44,6 +44,7 @@
 | [0289-game-of-life](https://github.com/erase-jeong/LeetCode/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Dynamic Programming
 |  |
@@ -68,6 +69,7 @@
 | [0112-path-sum](https://github.com/erase-jeong/LeetCode/tree/master/0112-path-sum) |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
+| [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Matrix
 |  |
@@ -76,6 +78,7 @@
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0289-game-of-life](https://github.com/erase-jeong/LeetCode/tree/master/0289-game-of-life) |
+| [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Backtracking
 |  |
@@ -99,6 +102,7 @@
 | ------- |
 | [0112-path-sum](https://github.com/erase-jeong/LeetCode/tree/master/0112-path-sum) |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
+| [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -134,4 +138,5 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
+| [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
