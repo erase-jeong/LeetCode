@@ -47,6 +47,7 @@
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
+| [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -60,10 +61,12 @@
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
 ## Sorting
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
 ## Breadth-First Search
 |  |
 | ------- |
