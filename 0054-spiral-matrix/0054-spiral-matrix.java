@@ -1,43 +1,27 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        //정답 선언
-        List<Integer> ans=new ArrayList<>();    
-
-        int m=matrix.length;  //세로
-        int n=matrix[0].length; //가로
-        int top=0, bottom=m-1;
-        int left=0, right=n-1;
-        
-        while(top<=bottom && left<=right){
-            //오른쪽 : r=top 고정, c:left-> right{}
-            for(int c=left;c<=right;c++){
-                ans.add(matrix[top][c]);
+        int[] dx = {0, 1, 0, -1};
+        int[] dy = {1, 0, -1, 0};
+        int n = matrix.length;
+        int m = matrix[0].length;
+        boolean[][] visited = new boolean[n][m];
+        List<Integer> answer = new ArrayList<>();
+        int idx = 0;
+        int x = 0, y = 0;
+        while (true) {
+            if (answer.size() == n * m) break;
+            if (x < 0 || x >= n || y < 0 || y >= m || visited[x][y]) {
+                x -= dx[idx];
+                y -= dy[idx];
+                idx = (idx + 1) % 4;
             }
-            top++;  //이 중간에라도 while문 조건 만족못하면 나가리? 
-            
-            //아래 : c=right 고정, r:top->bottom
-            for(int r=top;r<=bottom;r++){
-                ans.add(matrix[r][right]);
+            if (!visited[x][y]) {
+                answer.add(matrix[x][y]);
+                visited[x][y] = true;
             }
-            right--;
-
-            if(top<=bottom){  //왼쪽 : 
-                for(int c=right;c>=left;c--){
-                    ans.add(matrix[bottom][c]);
-                }
-                bottom--;
-            }
-            
-            
-            if(left<=right){  //위 :
-                for(int r=bottom;r>=top;r--){
-                    ans.add(matrix[r][left]);
-                }
-                left++;
-            } 
+            x += dx[idx];
+            y += dy[idx];
         }
-
-        return ans;
+        return answer;
     }
 }
-
