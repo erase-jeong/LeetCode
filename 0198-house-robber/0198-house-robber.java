@@ -1,24 +1,15 @@
 class Solution {
     public int rob(int[] nums) {
-        int n=nums.length;
-        if(n==1) return nums[0];
+        if(nums.length==1) return nums[0];
 
-        int prev2=nums[0];
-        int prev1=Math.max(nums[0],nums[1]);
+        int[] dp=new int[nums.length];
+        dp[0]=nums[0];
+        dp[1]=Math.max(dp[0],nums[1]);
 
-        for(int i=2;i<n;i++){
-            int curr=Math.max(prev1, prev2+nums[i]);
-            prev2=prev1;
-            prev1=curr;
+        for(int i=2;i<nums.length;i++){
+            dp[i]=Math.max(dp[i-1],dp[i-2]+nums[i]); 
         }
 
-        return prev1;
+        return dp[nums.length-1];
     }
 }
-/*
-고려사항 : 최소 길이 1
-dp점화식 만들기 
-
-예외케이스 : 1일때랑 그거보다 클때만 나누기
-
-*/
