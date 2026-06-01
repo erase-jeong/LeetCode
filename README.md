@@ -44,6 +44,7 @@
 | [0198-house-robber](https://github.com/erase-jeong/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/erase-jeong/LeetCode/tree/master/0289-game-of-life) |
+| [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
@@ -56,6 +57,7 @@
 | [0118-pascals-triangle](https://github.com/erase-jeong/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/erase-jeong/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/erase-jeong/LeetCode/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 ## Greedy
@@ -154,4 +156,8 @@
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
+## Binary Search
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
