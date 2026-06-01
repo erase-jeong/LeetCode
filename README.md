@@ -35,6 +35,7 @@
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/erase-jeong/LeetCode/tree/master/0118-pascals-triangle) |
@@ -65,6 +66,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
@@ -119,6 +121,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 ## Memoization
 |  |
@@ -132,6 +135,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/erase-jeong/LeetCode/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/erase-jeong/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
