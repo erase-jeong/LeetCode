@@ -1,24 +1,28 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int left=0;
-        int right=nums.length-1;
-
-        Arrays.sort(nums);
-        System.out.println(Arrays.toString(nums));
-
-        while(left<right){ //등호유무는 어떻게 하지? //같은거 중복해서 안쓴다고함. 그러므로, left랑 right가 같은 경우는 절대 정답이 될 수 없음
-            if(nums[left]+nums[right]==target){
-                return new int[]{left, right};
-            }else if(nums[left]+nums[right]>target){
-                right--;
-            }else if(nums[left]+nums[right]<target){
-                left++;
+        //해쉬 방법
+        HashMap<Integer,Integer> map=new HashMap<>();
+        //key : 숫자값, value : 인덱스
+        for(int i=0;i<nums.length;i++){
+            //현재 숫자(nums[i])와 짝이 되어야 할 수 계산
+            int need=target-nums[i]; 
+            
+            if(map.containsKey(need)){
+                return new int[]{map.get(need),i};
             }
+            map.put(nums[i],i);
         }
 
-        return new int[]{0};
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
+/*
+"지금 내가 필요한 값이 이전에 지나온 숫자 중에 있는가?"
+를 매 스탭마다 O(1)로 확인하기 => 전체 시간복잡도 : O(n)
+*/
+
+
+
 /*
 nums를 정렬한다.
 투포인터로 접근한다.
