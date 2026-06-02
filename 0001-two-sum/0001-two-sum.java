@@ -1,33 +1,33 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        //해쉬 방법
-        HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i=0;i<nums.length;i++) map.put(nums[i],i);
+        int left=0;
+        int right=nums.length-1;
 
-        for(int i=0;i<nums.length;i++){
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
 
-            int need=target-nums[i];
-            if(map.containsKey(need) && map.get(need)!=i){
-                return new int[]{i,map.get(need)};
+        while(left<right){ //등호유무는 어떻게 하지? //같은거 중복해서 안쓴다고함. 그러므로, left랑 right가 같은 경우는 절대 정답이 될 수 없음
+            if(nums[left]+nums[right]==target){
+                return new int[]{left, right};
+            }else if(nums[left]+nums[right]>target){
+                right--;
+            }else if(nums[left]+nums[right]<target){
+                left++;
             }
         }
-        return new int[]{0,0};
-        //throw new IllegalArgumentException("No two sum solution");
 
-        
+        return new int[]{0};
     }
 }
-
-
-        //브루투포스트
-        /*
-        for(int i=0;i<nums.length;i++){
-            for(int j=0;j<nums.length;j++){
-                if(i!=j && nums[i]+nums[j]==target){
-                    return new int[]{i,j};
-                }
-            }
-        }
-        throw new IllegalArgumentException("No two sum solution");
-        */
-
+/*
+nums를 정렬한다.
+투포인터로 접근한다.
+2+15
+if(nums[left]+nums[right]==target){
+    return new int[]{left,right};
+}else if(nums[left]+nums[right]>target){
+    right--;
+}else if(nums[left]+nums[right]<target){
+    left++;
+}
+*/
