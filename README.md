@@ -38,6 +38,7 @@
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/erase-jeong/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/erase-jeong/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -71,6 +72,7 @@
 | ------- |
 | [0015-3sum](https://github.com/erase-jeong/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
