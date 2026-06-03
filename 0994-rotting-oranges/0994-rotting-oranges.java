@@ -1,52 +1,44 @@
+import java.util.*;
+
 class Solution {
-    static int[] dx={0,0,-1,1};
-    static int[] dy={-1,1,0,0};
+    static int[] dr={-1,1,0,0};
+    static int[] dc={0,0,-1,1};
 
     public int orangesRotting(int[][] grid) {
+        //BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         Queue<int[]> q=new LinkedList<>();
-        int minutes=0;
+        int time=0, fresh=0;
 
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
-                if(grid[i][j]==2) q.add(new int[]{i,j,0});
+        int rows=grid.length, cols=grid[0].length;
+
+        for(int r=0;r<rows;r++){
+            for(int c=0;c<cols;c++){
+                if(grid[r][c]==1) fresh+=1;
+                if(grid[r][c]==2) q.add(new int[]{r,c});
             }
         }
 
-        while(!q.isEmpty()){
-            int[] p=q.poll();
-            int time=p[2];
-            minutes=Math.max(minutes,time);
+        while(!q.isEmpty() && fresh>0){
+            int size=q.size(); //현재 들어있는 오렌지 개수만큼만 전파
+            for(int i=0;i<size;i++){
+                int[] orange=q.poll();
+                int r=orange[0];
+                int c=orange[1];
 
-            for(int d=0;d<4;d++){
-                int nx=p[0]+dx[d];
-                int ny=p[1]+dy[d];
+                for(int d=0;d<4;d++){
+                    int nr=r+dr[d];
+                    int nc=c+dc[d];
 
-                if(nx>=0 && nx<grid.length && ny>=0 && ny<grid[0].length && grid[nx][ny]==1){
-                    grid[nx][ny]=2; //퍼트리기
-                    q.add(new int[]{nx,ny,time+1});
+                    if(nr<0 || nr==grid.length || nc<0 || nc==grid[0].length || grid[nr][nc]!=1) continue;
+                    grid[nr][nc]=2;
+                    q.add(new int[]{nr,nc});
+                    fresh-=1;
                 }
             }
+            time++; //for문 밖으로 
         }
 
-        //신선한 오렌지가 남아있으면 -1
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
-                if(grid[i][j]==1) return -1;
-            }
-        }
-
-        return minutes;
+        if(fresh==0) return time;
+        else return -1;
     }
 }
-
-/*
-0->empty -> 고려안함
-1->fresh
-2->rotten => 이거 기준으로 퍼트리기
-
-한개만 하는게 아니라, 실시간으로 여러개 퍼트린다.
-
-*종료조건 : fresh(1)이 없을 때까지
-1. 현재단게에서 썩은 토마토들을 queue에 넣는다.
-2. queue에 있는 것들은, queue가 빌때까지 순회하면서 퍼트린다.
-*/
