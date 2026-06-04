@@ -49,6 +49,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
@@ -62,6 +63,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0542-01-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -83,6 +85,7 @@
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Matrix
@@ -93,6 +96,7 @@
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/erase-jeong/LeetCode/tree/master/0289-game-of-life) |
+| [0542-01-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 ## Backtracking
