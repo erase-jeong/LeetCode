@@ -29,6 +29,7 @@
 | [1251-average-selling-price](https://github.com/erase-jeong/LeetCode/tree/master/1251-average-selling-price) |
 | [1341-movie-rating](https://github.com/erase-jeong/LeetCode/tree/master/1341-movie-rating) |
 | [1407-top-travellers](https://github.com/erase-jeong/LeetCode/tree/master/1407-top-travellers) |
+| [1795-rearrange-products-table](https://github.com/erase-jeong/LeetCode/tree/master/1795-rearrange-products-table) |
 ## Array
 |  |
 | ------- |
