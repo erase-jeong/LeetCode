@@ -57,6 +57,7 @@
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/erase-jeong/LeetCode/tree/master/0994-rotting-oranges) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/erase-jeong/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Dynamic Programming
 |  |
@@ -69,11 +70,13 @@
 | [0322-coin-change](https://github.com/erase-jeong/LeetCode/tree/master/0322-coin-change) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0542-01-matrix) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Greedy
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Sorting
 |  |
 | ------- |
@@ -85,6 +88,7 @@
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -110,10 +114,12 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Math
 |  |
 | ------- |
@@ -212,4 +218,8 @@
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/erase-jeong/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+## Enumeration
+|  |
+| ------- |
+| [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 <!---LeetCode Topics End-->
