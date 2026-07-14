@@ -75,6 +75,7 @@
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Sorting
@@ -87,6 +88,7 @@
 | [0217-contains-duplicate](https://github.com/erase-jeong/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 | [0435-non-overlapping-intervals](https://github.com/erase-jeong/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 | [2126-destroying-asteroids](https://github.com/erase-jeong/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
 ## Breadth-First Search
@@ -147,6 +149,7 @@
 | [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/erase-jeong/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/erase-jeong/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Memoization
 |  |
@@ -167,6 +170,7 @@
 | [0065-valid-number](https://github.com/erase-jeong/LeetCode/tree/master/0065-valid-number) |
 | [0125-valid-palindrome](https://github.com/erase-jeong/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 ## Simulation
 |  |
 | ------- |
@@ -213,6 +217,7 @@
 ## Counting
 |  |
 | ------- |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/erase-jeong/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
@@ -222,4 +227,8 @@
 |  |
 | ------- |
 | [2708-maximum-strength-of-a-group](https://github.com/erase-jeong/LeetCode/tree/master/2708-maximum-strength-of-a-group) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
 <!---LeetCode Topics End-->
