@@ -1,9 +1,5 @@
 class Solution {
     public boolean canCross(int[] stones) {
-        //int[] dp=new int[stones.length];
-        //System.out.println(Arrays.toString(dp));
-        //상태의 변화를 관찰하기
-        //상태=(돌 위치, 직전 점프 크기)
         Map<Integer,Set<Integer>> map=new HashMap<>();
         for(int stone:stones){
             map.put(stone,new HashSet<>());
