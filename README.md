@@ -37,6 +37,7 @@
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/erase-jeong/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/erase-jeong/LeetCode/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/erase-jeong/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/erase-jeong/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/erase-jeong/LeetCode/tree/master/0054-spiral-matrix) |
@@ -191,6 +192,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/erase-jeong/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0300-longest-increasing-subsequence](https://github.com/erase-jeong/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 ## Stack
 |  |
