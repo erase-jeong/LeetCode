@@ -46,6 +46,7 @@
 | [0078-subsets](https://github.com/erase-jeong/LeetCode/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/erase-jeong/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/erase-jeong/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/erase-jeong/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0198-house-robber](https://github.com/erase-jeong/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
@@ -150,6 +151,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/erase-jeong/LeetCode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/erase-jeong/LeetCode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/erase-jeong/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/erase-jeong/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/erase-jeong/LeetCode/tree/master/0242-valid-anagram) |
 | [0767-reorganize-string](https://github.com/erase-jeong/LeetCode/tree/master/0767-reorganize-string) |
@@ -186,6 +188,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/erase-jeong/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/erase-jeong/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/erase-jeong/LeetCode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/erase-jeong/LeetCode/tree/master/0695-max-area-of-island) |
