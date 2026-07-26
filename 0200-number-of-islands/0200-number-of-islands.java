@@ -1,48 +1,74 @@
-import java.util.*; 
-
 class Solution {
-    static int rows, cols;
+    static int[][] visited;
+    static int[] dr={-1,1,0,0};
+    static int[] dc={0,0,-1,1};
+    
 
     public int numIslands(char[][] grid) {
-       //행, 열
-       rows=grid.length;
-       cols=grid[0].length;
+        int n=grid.length;
+        int m=grid[0].length;
 
-        int count=0;
+        //System.out.println("n : "+n+", m : "+m);
 
-       //bfs 순회
-       //덩어리 출력하기
-       for(int r=0;r<rows;r++){
-            for(int c=0;c<cols;c++){
-                if(grid[r][c]=='1'){
-                    count+=bfs(r,c,grid);
-                }
+        visited=new int[n][m];
+        //System.out.println("visited : "+Arrays.deepToString(visited));
+
+        int answer=0;
+
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[0].length;j++){
+                if(grid[i][j]=='1'&& visited[i][j]==0){
+                    System.out.println("i : "+i+", j : "+j);
+                    //System.out.println("bfs 진입 : i="+i+", j="+j);
+                    //bfs(i,j, grid); 
+                    //answer++;
+                    answer+=bfs(i,j,grid);
+                } 
             }
-       }
-
-       return count;
+            //System.out.println();
+        }
+        return answer;
     }
-
-    public static int bfs(int r, int c, char[][] grid){
+    
+    public static int bfs(int i, int j, char[][] grid){  //bfs 1번에 하나의 덩어리를 찾아낸다
         Queue<int[]> queue=new LinkedList<>();
-        queue.add(new int[]{r,c});
-        grid[r][c]='0';
+        queue.add(new int[]{i,j});
+        
 
-        int[][] dirs={{1,0},{-1,0},{0,1},{0,-1}};
+        //System.out.println("초기 queue : " + Arrays.deepToString(queue.toArray()));
 
         while(!queue.isEmpty()){
-            int[] cur=queue.poll();
-            
-            for(int[] d:dirs){
-                int nr=cur[0]+d[0];
-                int nc=cur[1]+d[1];
+            int[] p=queue.poll();
+            //System.out.println("p : "+Arrays.toString(p));
 
-                if(nr>=0 && nr<rows && nc>=0 && nc<cols && grid[nr][nc]=='1'){
-                    grid[nr][nc]=0;
+            for(int d=0;d<4;d++){
+                int nr=p[0]+dr[d];
+                int nc=p[1]+dc[d];
+
+                //System.out.println("nr : "+nr+", nc : "+nc);
+
+                if(nr>=0 && nr<grid.length && nc>=0 && nc<grid[0].length && grid[nr][nc]=='1' && visited[nr][nc]==0){
+                    //System.out.println("if문 내부 - nr : "+nr+", nc : "+nc);
+                  //queue.add(new int{nr,nc});
+                    visited[nr][nc]=1;
+                    //System.out.println("visited["+nr+"]["+nc+"] :"+visited[nr][nc]);
+
                     queue.add(new int[]{nr,nc});
                 }
             }
         }
+        
         return 1;
     }
+
+
 }
+
+/*
+bfs로 퍼트리면서 주변을 퍼트리면서 확인하는 로직
+
+하는 방법
+1. 방문 배열(2차원)
+2. 방문하지 않았거나 1이며 방문
+전체 로직 설계
+*/
