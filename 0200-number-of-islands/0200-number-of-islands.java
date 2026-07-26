@@ -33,7 +33,8 @@ class Solution {
     public static int bfs(int i, int j, char[][] grid){  //bfs 1번에 하나의 덩어리를 찾아낸다
         Queue<int[]> queue=new LinkedList<>();
         queue.add(new int[]{i,j});
-        
+        visited[i][j]=1;
+
 
         //System.out.println("초기 queue : " + Arrays.deepToString(queue.toArray()));
 
