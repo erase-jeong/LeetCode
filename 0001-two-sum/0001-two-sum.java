@@ -1,37 +1,32 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        //해쉬 방법
-        HashMap<Integer,Integer> map=new HashMap<>();
-        //key : 숫자값, value : 인덱스
+
+        int[] answer=new int[2];
+
         for(int i=0;i<nums.length;i++){
-            //현재 숫자(nums[i])와 짝이 되어야 할 수 계산
-            int need=target-nums[i]; 
-            
-            if(map.containsKey(need)){
-                return new int[]{map.get(need),i};
+            for(int j=0;j<i;j++){
+                if(nums[i]+nums[j]==target){
+                    answer[0]=i;
+                    answer[1]=j;
+                }
             }
-            map.put(nums[i],i);
         }
 
-        throw new IllegalArgumentException("No two sum solution");
+        /*
+        for(int i=0;i<nums.length;i++){
+            for(int j=i+1;j<nums.length;j++){
+                if(nums[i]+nums[j]==target){
+                    answer[0]=i;
+                    answer[1]=j;
+                }
+            }
+        }
+        */
+
+        return answer;
     }
 }
-/*
-"지금 내가 필요한 값이 이전에 지나온 숫자 중에 있는가?"
-를 매 스탭마다 O(1)로 확인하기 => 전체 시간복잡도 : O(n)
-*/
-
-
 
 /*
-nums를 정렬한다.
-투포인터로 접근한다.
-2+15
-if(nums[left]+nums[right]==target){
-    return new int[]{left,right};
-}else if(nums[left]+nums[right]>target){
-    right--;
-}else if(nums[left]+nums[right]<target){
-    left++;
-}
+*정렬을 하면 순서가 바뀌므로 정렬을 하면 안됨 => 이분탐색 못씀
 */
