@@ -1,47 +1,71 @@
 class Solution {
-    static int[] dx={0,0,-1,1};
-    static int[] dy={-1,1,0,0};
-    static int n,m;
-    static int[][] ans;
-
+    static int[] dr={-1,1,0,0};
+    static int[] dc={0,0,-1,1};
+    
     public int[][] updateMatrix(int[][] mat) {
-        int rows=mat.length;
-        int cols=mat[0].length;
-        int[][] dist=new int[rows][cols];
-        Queue<int[]> queue=new LinkedList<>();
+        int n=mat.length, m=mat[0].length;
+        int[][] answer=new int[n][m];
+        boolean[][] visited=new boolean[n][m];
+        Queue<int[]> q=new LinkedList<>();
 
-        //1단계 : 모든 O를 큐에 넣고, 1은 INF로 초기화
-        for(int r=0;r<rows;r++){
-            for(int c=0;c<cols;c++){
-                if(mat[r][c]==0){
-                    dist[r][c]=0;
-                    queue.offer(new int[]{r,c});
-                }else{
-                    dist[r][c]=Integer.MAX_VALUE;
+        //1) 모든 0을 시작점으로 큐에 넣기
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(mat[i][j]==0){
+                    q.add(new int[]{i,j});
+                    visited[i][j]=true;
+                }
+            }
+        }
+        
+        while(!q.isEmpty()){
+            int[] p=q.poll();
+            int r=p[0], c=p[1];
+            //visited[r][c]=true;
+
+
+            for(int d=0;d<4;d++){
+                int nr=r+dr[d];
+                int nc=c+dc[d];
+
+                if(nr>=0 && nr<mat.length && nc>=0 && nc<mat[0].length && visited[nr][nc]==false){
+                    answer[nr][nc]=answer[r][c]+1;
+                    visited[nr][nc]=true; 
+                    q.add(new int[]{nr,nc});
                 }
             }
         }
 
-        //2단계 : BFS로 퍼저나가기
-        int[][] directions={{0,1},{0,-1},{1,0},{-1,0}};
-        while(!queue.isEmpty()){
-            int[] curr=queue.poll();
-            int r=curr[0], c=curr[1];
-            
-            for(int[] dir:directions){
-                int nr=r+dir[0];
-                int nc=c+dir[1];
+        return answer;
+    }
 
-                //더 짧은 경로 발견 시 갱신
-                if(nr>=0 && nr<rows && nc>=0 && nc<cols){
-                    if(dist[nr][nc]>dist[r][c]+1){
-                        dist[nr][nc]=dist[r][c]+1;
-                        queue.offer(new int[]{nr,nc});
+
+/*
+    public int bfs(int r, int c, int[][] mat){
+        int[][] visied=new int[mat.length][mat[0].length];
+        Queue<int[]> q=new LinkedList<>();
+        q.add(new int[]{r,c,0});
+        visited[r][c]=1;
+
+        while(!q.isEmpty()){
+            int[] p=q.poll();
+
+            for(int d=0;d<4;d++){
+                int nr=p[0]+dr[d];
+                int nc=p[1]+dc[d];
+                int dist=p[2]+1;
+
+                if(nr>=0 && nr<mat.length && nc>=0 && nc<mat[0].length && visited[nr][nc]==0){
+                    if(mat[nr][nc]==0) return dist;
+                    else{
+                        q.add(new int[]{nr,nc,dist});
+                        visited[nr][nc]=1;
                     }
                 }
 
             }
         }
-        return dist;
+        return -1;  //형식상으로?
     }
+    */
 }
